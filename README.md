@@ -6,7 +6,7 @@
 
 续幕是一款 Android 本地游戏运行与管理应用，支持 ONS、KRKR 与 PC 引擎，将游戏管理、画面增强和游玩工具带到手机上。
 
-[官方网站](https://api.dixonmxl.com/xumu/site/) · [下载正式版](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.2) · [在线使用指南](https://api.dixonmxl.com/xumu/site/guide/index.html) · [版本更新记录](CHANGELOG.md)
+[官方网站](https://api.dixonmxl.com/xumu/site/) · [下载正式版](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.3) · [在线使用指南](https://api.dixonmxl.com/xumu/site/guide/index.html) · [版本更新记录](CHANGELOG.md)
 
 ## 界面预览
 
@@ -28,7 +28,7 @@
 
 - **多引擎支持**：按游戏选择 ONS、KRKR 或 PC 运行方式。
 - **画面增强**：在支持的游戏中使用超分辨率和智能插帧。
-- **字幕与 AI 翻译**：回看和复制对白，使用自己的翻译服务配置查看译文。
+- **字幕与 AI 翻译**：回看和复制对白，使用自己的翻译服务配置查看译文；ONS／KRKR 支持可靠对白的翻译预取，减少逐句等待。
 - **游戏控制台**：管理操作方式、显示、字幕与常用工具。
 - **存档与备份**：保存游戏进度，备份支持范围内的存档、设置与游戏记录。
 
@@ -66,7 +66,8 @@
 
 ### 游戏管理
 
-- 文件夹、ZIP、RAR、7z 与批量导入。
+- 文件夹、ZIP、RAR、7z、常见分卷压缩包与批量导入。
+- 安卓设备间局域网快传，支持配对、后台传输和暂停续传。
 - 封面、收藏、搜索、游戏单与最近游玩。
 - 触屏操作、虚拟按键与外接手柄。
 - 游戏截图查看、管理与导出。
@@ -74,14 +75,16 @@
 
 ## 下载与安装
 
-当前正式版为 **0.1.2**，要求 **Android 10 或更高版本、ARM64 设备**。
+当前正式版为 **0.1.3**，要求 **Android 10 或更高版本、ARM64 设备**。
 
-1. 打开 [0.1.2 发布页](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.2)。
-2. 在 **Assets** 中下载 `Xumu-0.1.2-release.apk`。
+1. 打开 [0.1.3 发布页](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.3)。
+2. 在 **Assets** 中下载 `Xumu-0.1.3-release.apk`。
 3. 在 Android 设备上打开安装包，按系统提示安装。
 4. 准备完整游戏文件，按照 [快速开始](https://api.dixonmxl.com/xumu/site/guide/first-game.html) 添加第一款游戏。
 
-安装包约 197 MiB，通过 GitHub Releases 提供。更新安装前请保留重要备份。
+安装包约 202 MiB，提供[官网下载](https://api.dixonmxl.com/xumu/site/download.html)和 GitHub Releases 下载。更新安装前请保留重要备份。
+
+已安装续幕的用户，可在 **我的 → 关于续幕 → 检查更新** 中下载新版本；主机模式入口为 **设置 → 关于续幕 → 检查更新**。
 
 ## 使用指南
 
