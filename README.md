@@ -6,7 +6,7 @@
 
 续幕是一款 Android 本地游戏运行与管理应用，支持 ONS、KRKR 与 PC 引擎，将游戏管理、画面增强和游玩工具带到手机上。
 
-[官方网站](https://api.dixonmxl.com/xumu/site/) · [下载正式版](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.3) · [在线使用指南](https://api.dixonmxl.com/xumu/site/guide/index.html) · [版本更新记录](CHANGELOG.md)
+[官方网站](https://api.dixonmxl.com/xumu/site/) · [下载正式版](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.4) · [在线使用指南](https://api.dixonmxl.com/xumu/site/guide/index.html) · [版本更新记录](CHANGELOG.md)
 
 ## 界面预览
 
@@ -28,7 +28,7 @@
 
 - **多引擎支持**：按游戏选择 ONS、KRKR 或 PC 运行方式。
 - **画面增强**：在支持的游戏中使用超分辨率和智能插帧。
-- **字幕与 AI 翻译**：回看和复制对白，使用自己的翻译服务配置查看译文；ONS／KRKR 支持可靠对白的翻译预取，减少逐句等待。
+- **字幕与 AI 翻译**：回看和复制对白，支持配置云端翻译或下载模型离线日译中；ONS／KRKR 支持可靠对白的翻译预取，减少逐句等待。
 - **游戏控制台**：管理操作方式、显示、字幕与常用工具。
 - **存档与备份**：保存游戏进度，备份支持范围内的存档、设置与游戏记录。
 
@@ -48,7 +48,9 @@
 - **运行组件与驱动**：按设备与游戏需要选择适用组件。
 - **键位适配**：调整触屏、键鼠快捷键与手柄映射。
 - **修改器接入**：接入自行准备且版本匹配的部分风灵月影修改器。
-- **PC 文件管理与性能监测**：管理游戏相关文件，查看运行情况。
+- **文件管理与性能监测**：双栏复制、整理和导出文件，查看运行情况。
+- **PC 操作与光盘**：支持手势鼠标、自定义游戏键盘、逐游戏环境变量、ISO 安装和多盘切换。
+- **Steam Beta**：支持下载、管理和游玩 Steam AVG 游戏，以及云存档、成就和好友资料查看；测试阶段不保证稳定性。
 
 ### 修改器与虚拟手柄
 
@@ -75,14 +77,14 @@
 
 ## 下载与安装
 
-当前正式版为 **0.1.3**，要求 **Android 10 或更高版本、ARM64 设备**。
+当前正式版为 **0.1.4**，要求 **Android 10 或更高版本、ARM64 设备**。
 
-1. 打开 [0.1.3 发布页](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.3)。
-2. 在 **Assets** 中下载 `Xumu-0.1.3-release.apk`。
+1. 打开 [0.1.4 发布页](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.4)。
+2. 在 **Assets** 中下载 `Xumu-0.1.4-release.apk`。
 3. 在 Android 设备上打开安装包，按系统提示安装。
 4. 准备完整游戏文件，按照 [快速开始](https://api.dixonmxl.com/xumu/site/guide/first-game.html) 添加第一款游戏。
 
-安装包约 202 MiB，提供[官网下载](https://api.dixonmxl.com/xumu/site/download.html)和 GitHub Releases 下载。更新安装前请保留重要备份。
+安装包约 240 MiB，提供[官网下载](https://api.dixonmxl.com/xumu/site/download.html)和 GitHub Releases 下载。更新安装前请保留重要备份。
 
 已安装续幕的用户，可在 **我的 → 关于续幕 → 检查更新** 中下载新版本；主机模式入口为 **设置 → 关于续幕 → 检查更新**。
 
@@ -102,7 +104,7 @@
 
 - 游戏文件和修改器需自行合法准备，续幕不提供第三方游戏资源。
 - 兼容性与功能支持因游戏、运行方式及设备而异，不保证所有游戏都能完整运行。
-- AI 翻译需自行配置服务；费用和文本处理规则以所选服务商为准。部分游戏文字可能无法读取。
+- 云端 AI 翻译需自行配置服务，费用和文本处理规则以所选服务商为准；本地翻译下载模型后可离线日译中。部分游戏文字可能无法读取。
 - 普通备份不包含游戏本体和完整运行环境，PC 存档需确认保存位置。
 - 修改器需匹配游戏版本；使用前先备份重要进度。
 
