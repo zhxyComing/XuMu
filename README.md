@@ -6,7 +6,7 @@
 
 续幕是一款 Android 本地游戏运行与管理应用，支持 ONS、KRKR 与 PC 引擎，将游戏管理、画面增强和游玩工具带到手机上。
 
-[官方网站](https://api.dixonmxl.com/xumu/site/) · [下载正式版](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.4) · [在线使用指南](https://api.dixonmxl.com/xumu/site/guide/index.html) · [版本更新记录](CHANGELOG.md)
+[官方网站](https://dixonmxl.com/xumu/) · [下载正式版](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.5) · [在线使用指南](https://dixonmxl.com/xumu/guide/index.html) · [版本更新记录](CHANGELOG.md)
 
 ## 界面预览
 
@@ -77,28 +77,28 @@
 
 ## 下载与安装
 
-当前正式版为 **0.1.4**，要求 **Android 10 或更高版本、ARM64 设备**。
+当前正式版为 **0.1.5**，要求 **Android 10 或更高版本、ARM64 设备**。
 
-1. 打开 [0.1.4 发布页](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.4)。
-2. 在 **Assets** 中下载 `Xumu-0.1.4-release.apk`。
+1. 打开 [0.1.5 发布页](https://github.com/zhxyComing/XuMu/releases/tag/v0.1.5)。
+2. 在 **Assets** 中下载 `Xumu-0.1.5-release.apk`。
 3. 在 Android 设备上打开安装包，按系统提示安装。
-4. 准备完整游戏文件，按照 [快速开始](https://api.dixonmxl.com/xumu/site/guide/first-game.html) 添加第一款游戏。
+4. 准备完整游戏文件，按照 [快速开始](https://dixonmxl.com/xumu/guide/first-game.html) 添加第一款游戏。
 
-安装包约 240 MiB，提供[官网下载](https://api.dixonmxl.com/xumu/site/download.html)和 GitHub Releases 下载。更新安装前请保留重要备份。
+安装包约 256 MiB，提供[官网下载](https://dixonmxl.com/xumu/download.html)和 GitHub Releases 下载。更新安装前请保留重要备份。
 
 已安装续幕的用户，可在 **我的 → 关于续幕 → 检查更新** 中下载新版本；主机模式入口为 **设置 → 关于续幕 → 检查更新**。
 
 ## 使用指南
 
-- [运行第一款游戏](https://api.dixonmxl.com/xumu/site/guide/first-game.html)
-- [选择导入方式](https://api.dixonmxl.com/xumu/site/guide/import-method.html)
-- [运行方式怎么选](https://api.dixonmxl.com/xumu/site/guide/choose-engine.html)
-- [字幕与 AI 翻译](https://api.dixonmxl.com/xumu/site/guide/translation.html)
-- [创建与导出备份](https://api.dixonmxl.com/xumu/site/guide/create-backup.html)
-- [兼容性与问题排查](https://api.dixonmxl.com/xumu/site/guide/compatibility.html)
-- [完整指南目录](https://api.dixonmxl.com/xumu/site/guide/index.html)
+- [运行第一款游戏](https://dixonmxl.com/xumu/guide/first-game.html)
+- [选择导入方式](https://dixonmxl.com/xumu/guide/import-method.html)
+- [运行方式怎么选](https://dixonmxl.com/xumu/guide/choose-engine.html)
+- [字幕与 AI 翻译](https://dixonmxl.com/xumu/guide/translation.html)
+- [创建与导出备份](https://dixonmxl.com/xumu/guide/create-backup.html)
+- [兼容性与问题排查](https://dixonmxl.com/xumu/guide/compatibility.html)
+- [完整指南目录](https://dixonmxl.com/xumu/guide/index.html)
 
-也可以阅读排版完整的 [官网使用指南](https://api.dixonmxl.com/xumu/site/guide/index.html)。指南对应正式版 0.1.2。
+也可以阅读排版完整的 [官网使用指南](https://dixonmxl.com/xumu/guide/index.html)。指南对应正式版 0.1.2。
 
 ## 使用说明
 
@@ -112,4 +112,4 @@
 
 在应用内打开 **设置 → 关于 → 反馈**。建议提供应用版本、设备型号、游戏名称与版本、运行方式、复现步骤和错误提示。
 
-请勿在反馈中填写 API Key、账号密码或不必要的个人信息。详细操作见 [收集诊断与提交反馈](https://api.dixonmxl.com/xumu/site/guide/diagnostics.html)。
+请勿在反馈中填写 API Key、账号密码或不必要的个人信息。详细操作见 [收集诊断与提交反馈](https://dixonmxl.com/xumu/guide/diagnostics.html)。
